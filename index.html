@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+<!--[if lt IE 9]>
+　　　　<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+　　<![endif]-->
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="yes" name="apple-touch-fullscreen">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta name="keywords" content="html5, 拼图, 游戏">
+<meta name="description" content="疯狂动物城呢，去看看吧！">
+<title>拼图小游戏</title>
+<link rel="shortcut icon" type="image/x-icon" href="http://static.yangbai.me/images/favicon.ico">
+<link href="http://cdn.bootcss.com/jquery-mobile/1.4.5/jquery.mobile.min.css" rel="stylesheet">
+<link rel="stylesheet" href="./css/index.min.css">
+<link rel="stylesheet" href="./css/rem.min.css">
+
+
+<body>
+<div class="page1">
+    <img src="img/tuzi.png" alt="兔子" style="opacity: 0;width: 0;height: 0;">
+    <button id="reset" class="game-reset-btn" disabled>重新开始</button>
+    <div class="game-box">
+        <div class="game-pop-box ui-center " id="layer">
+            <div class="game-warp">
+                <div class="game-pop-hd">
+                    <h2>挑战失败！</h2>
+                    <p>再接再厉！</p>
+                </div>
+                <button id="start" class="game-start-btn ">开始</button>
+            </div>
+        </div>
+        <ul id="gameBox">
+            <li><img src="" alt=""></li>
+            <li><img src="" alt=""></li>
+            <li><img src="" alt=""></li>
+            <li><img src="" alt=""></li>
+            <li><img src="" alt=""></li>
+            <li><img src="" alt=""></li>
+            <li><img src="" alt=""></li>
+            <li><img src="" alt=""></li>
+            <li><img src="" alt=""></li>
+        </ul>
+    </div>
+    <span class="play-time" id="timing">?</span>
+    <p class="pages">
+        第&nbsp;<strong id="level">?</strong>&nbsp;/&nbsp;<span id="levels">?</span> 关，
+        本关限时<span id="time">?</span>秒
+    </p>
+</div>
+<canvas id="canvas" style="display: none" width="300" height="300"></canvas>
+<script type="text/javascript" src="./js/zepto.min.js"></script>
+
+<script type="text/javascript" src="./js/index.min.js"></script>
+</body>
+</html>
