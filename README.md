@@ -1,7 +1,7 @@
 # HTML5拼图小游戏
 
 ![闪电](src/img/logo.png)   
-[演示地址](http://zyy1217.com/project/html5-puzzle/)
+[演示地址](http://zyy1217.com/project/puzzle/)
 
 ## 项目描述：
 一个基于HTML5和Canvas的拼图游戏，使用了rem自适应布局，移动端和网页端都可以使用。
