@@ -15,7 +15,7 @@ $(function(){
         isComplete: false,
         level: 0,
         levels: [
-            {time: "60.00", image: "img/shulan.png"},
+            {time: "60.00", image: "./img/shulan.png"},
             {time: "40.00", image: "img/tuzi.png"},
             {time: "30.00", image: "img/together.png"},
             {time: "20.00", image: "img/shengdan.png"}
